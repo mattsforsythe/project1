@@ -1,0 +1,12 @@
+p {
+  color: #0000ff;
+}
+.myClass {
+  width: 50%;
+}
+.myClass p {
+  color: #9999ff;
+}
+.myClass a {
+  color: black;
+}

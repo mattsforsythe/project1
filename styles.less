@@ -1,0 +1,20 @@
+@paraText: blue;
+@paraRedText: green;
+@containerWidth: 50%;
+
+p {
+	color: @paraText;
+}
+
+.myClass {
+	width: @containerWidth;
+
+	p {
+	color: lighten(@paraText, 30%);
+	}
+	
+	a {
+	 color: black;
+	}
+}
+
